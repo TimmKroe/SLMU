@@ -12,7 +12,7 @@ namespace SLMU
             Console.WriteLine("Insert the Path of the Directory you want to zip the files in:");
             var path = Console.ReadLine();
             
-            Console.WriteLine("\n\n");gi
+            Console.WriteLine("\n\n");
             
             // get all files
             DirectoryInfo d = new DirectoryInfo(@path);
